@@ -103,7 +103,8 @@ Dari grafik korelasi di atas, fitur Age memiliki korelasi yang cukup kuat (0.54)
 
 PCA umumnya digunakan ketika variabel dalam data yang memiliki korelasi yang tinggi. Korelasi tinggi ini menunjukkan data yang berulang atau redundant. Sebelumnya perlu cek kembali korelasi antar fitur (selain fitur target) dengan menggunakan pairplot.
 
-![](https://github.com/Noviaherlinda/MLT1-NOVIAHERLINDAMARIUS/blob/main/PCA.png)
+![PCA](https://user-images.githubusercontent.com/119787827/205727155-ac1d218c-ccce-4915-930e-8a5f01753265.png)
+
 
 Gambar 4. Visualisasi Hubungan antar Fitur Selain Fitur Target (Outcome)
 
@@ -206,7 +207,8 @@ Tabel 7. Perbandingan Nilai K terhadap Akurasi
 
 Jika divisualisasikan dengan fungsi `plot()` diperoleh:
 
-![](https://github.com/Noviaherlinda/MLT1-NOVIAHERLINDAMARIUS/blob/main/visualisasi.png)
+![visualisasi](https://user-images.githubusercontent.com/119787827/205727311-f9d4a937-48bd-432d-ad2c-c02f450eaa0a.png)
+
 
 Gambar 5. Visualisai Nilai K terhadap Akurasi
 
@@ -278,7 +280,9 @@ Tabel 10. Nilai Akurasi pada Setiap Model dengan Data Uji
 |Test Accuracy|0\.7857142857142857|0\.7792207792207793|0\.7727272727272727|
 
 Untuk memudahkan, dilakukan *plot* hasil evaluasi model dengan *bar chart* sebagai berikut:
-![](https://github.com/Noviaherlinda/MLT1-NOVIAHERLINDAMARIUS/blob/main/evaluasi.png)
+
+![evaluasi](https://user-images.githubusercontent.com/119787827/205727458-66c457c8-10e9-4bc6-a7be-3cd080e91ab0.png)
+
 
 Gambar 6. *Bar Chart* Hasil Evaluasi Model dengan Data Latih dan Uji
 
