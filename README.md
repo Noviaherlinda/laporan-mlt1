@@ -69,7 +69,8 @@ Dari Tabel 2 di atas, terlihat bahwa setiap fitur tidak memiliki *missing value*
 
 Selanjutnya, untuk fitur numerik, akan dilakukan visualisasi dengan histogram pada masing-masing fiturnya sebagai berikut.
 
-![histogram_numerik](https://github.com/Noviaherlinda/MLT1-NOVIAHERLINDAMARIUS/blob/main/histogram.png)
+![histogram](https://user-images.githubusercontent.com/119787827/205722685-5cd65195-015e-49e9-9f98-ccd3d7a31877.png)
+
 
 Gambar 1. Histogram pada Setiap Fitur Numerik
 
@@ -80,13 +81,15 @@ Berdasarkan Gambar 1. di atas, diperoleh beberapa informasi, antara lain:
 
 Untuk mengamati hubungan antara fitur numerik, akan digunakan fungsi pairplot(), dengan output sebagai berikut.
 
-![](https://github.com/Noviaherlinda/MLT1-NOVIAHERLINDAMARIUS/blob/main/multivariate%20analysis.png)
+![multivariate analysis](https://user-images.githubusercontent.com/119787827/205723139-7d37b23f-3c7b-4a16-9f83-c87bcd1e66ce.png)
+
 
 Gambar 2. Visualisasi Hubungan antar Fitur Numerik
 
 Pada pola sebaran data grafik pairplot di atas, terlihat fitur Age memiliki korelasi cukup kuat (positif) dengan fitur Pregnancies. Untuk mengevaluasi skor korelasinya, akan digunakan fungsi corr() sebagai berikut.
 
-![](https://github.com/Noviaherlinda/MLT1-NOVIAHERLINDAMARIUS/blob/main/correlation.png)
+![correlation](https://user-images.githubusercontent.com/119787827/205723253-c6706270-6a8a-4017-ab7e-135fafab1d4c.png)
+
 
 Gambar 3. Korelasi antar Fitur Numerik
 
